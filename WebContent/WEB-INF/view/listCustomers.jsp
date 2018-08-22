@@ -5,6 +5,8 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<!-- ${pageContext.request.contextPath} gives the name of app -->
+<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css"><link>
 <title>List Customers</title>
 </head>
 <body>

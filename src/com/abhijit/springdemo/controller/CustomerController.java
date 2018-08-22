@@ -22,10 +22,8 @@ public class CustomerController {
 	@RequestMapping("/list")
 	public String listCustomers(Model theModel) {
 		
-		//get the customers from dao
-		System.out.println("*************before customerDAO.getCustomers() call*******************");
-		List<Customer> theCustomers = customerDAO.getCustomers();
-		System.out.println("--------------the list--------------");
+		//get the customers from dao		
+		List<Customer> theCustomers = customerDAO.getCustomers();	
 		System.out.println(theCustomers);
 		
 		//add the customers to the model
