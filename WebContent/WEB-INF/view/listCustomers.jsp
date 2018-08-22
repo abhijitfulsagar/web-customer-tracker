@@ -17,6 +17,10 @@
 	</div>
 	<div id="container">
 		<div id="content">
+			
+			<input type="button" value="Add Customer" 
+				onclick="window.location.href='showFormForAdd'; return false;"
+				class="add-button"/>
 			<table>
 				<tr>
 					<th>First Name</th>
@@ -29,7 +33,7 @@
 						<td>${tempCustomer.firstName}</td>
 						<td>${tempCustomer.lastName}</td>
 						<td>${tempCustomer.email}</td>
-					</tr>
+					</tr> 
 				</c:forEach>
 				
 			</table>
